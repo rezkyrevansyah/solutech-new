@@ -23,23 +23,23 @@ export default function LayananPage() {
               Home
             </Link>
             <ChevronRight className="w-3 h-3" />
-            <span className="text-white/60">Layanan Profesional</span>
+            <span className="text-white/60">Lorem Ipsum</span>
           </div>
 
           {/* Pill Badge */}
           <div className="inline-flex items-center gap-2 bg-brand-accent/10 border border-brand-accent/20 text-brand-accent text-xs font-medium px-4 py-1.5 rounded-full mb-4">
-            IT Solutions
+            Lorem Ipsum
           </div>
 
           {/* Heading */}
           <h1 className="text-4xl lg:text-5xl font-bold text-white mt-4">
-            Layanan Profesional Kami
+            Lorem Ipsum Dolor Sit
           </h1>
 
           {/* Subtext */}
           <p className="text-white/50 text-base mt-4 max-w-2xl">
-            Dari hardware provider hingga managed services — solusi IT lengkap untuk mendukung
-            pertumbuhan bisnis Anda di seluruh Indonesia.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt
+            ut labore et dolore magna aliqua ut enim ad minim veniam.
           </p>
         </div>
       </section>
@@ -51,7 +51,7 @@ export default function LayananPage() {
             {/* LEFT SIDEBAR - Desktop Only */}
             <div className="hidden lg:block lg:sticky lg:top-24 lg:self-start">
               <div className="text-xs uppercase tracking-widest text-brand-muted mb-6">
-                IT Solutions
+                Lorem Ipsum
               </div>
 
               <div className="space-y-2">
@@ -121,7 +121,7 @@ export default function LayananPage() {
 
                   {/* Features Section */}
                   <div className="text-xs uppercase tracking-widest text-brand-muted mb-5">
-                    Fitur Utama
+                    Lorem Ipsum
                   </div>
 
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
@@ -148,17 +148,17 @@ export default function LayananPage() {
                   <div className="mt-8 p-6 bg-brand-dark rounded-lg flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
                     <div>
                       <div className="text-white font-semibold">
-                        Tertarik dengan layanan ini?
+                        Lorem ipsum dolor sit amet?
                       </div>
                       <div className="text-white/50 text-sm mt-1">
-                        Tim kami siap membantu Anda.
+                        Lorem ipsum consectetur adipiscing elit.
                       </div>
                     </div>
                     <a
                       href={`${WHATSAPP_URL} - ${SERVICES[activeService].name}`}
                       className="bg-brand-accent text-black font-semibold px-6 py-3 rounded-sm text-sm hover:bg-brand-accent/90 transition-colors whitespace-nowrap"
                     >
-                      Konsultasi Sekarang →
+                      Lorem Ipsum →
                     </a>
                   </div>
                 </motion.div>

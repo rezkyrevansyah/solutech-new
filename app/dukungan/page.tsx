@@ -15,19 +15,19 @@ export default function DukunganPage() {
               Home
             </Link>
             <ChevronRight className="w-3 h-3" />
-            <span className="text-white/60">Dukungan</span>
+            <span className="text-white/60">Lorem Ipsum</span>
           </div>
 
           <div className="inline-flex items-center gap-2 bg-brand-accent/10 border border-brand-accent/20 text-brand-accent text-xs font-medium px-4 py-1.5 rounded-full mb-4">
-            DUKUNGAN TEKNIS
+            LOREM IPSUM
           </div>
 
           <h1 className="text-4xl lg:text-5xl font-bold text-white mt-4">
-            Dukungan Teknis
+            Lorem Ipsum Dolor
           </h1>
 
           <p className="text-white/50 text-base mt-4 max-w-2xl">
-            Kami siap membantu Anda kapanpun dibutuhkan.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </p>
         </div>
       </section>
@@ -38,7 +38,7 @@ export default function DukunganPage() {
           {/* Intro */}
           <div className="max-w-2xl mx-auto text-center mb-12">
             <p className="text-brand-muted leading-relaxed">
-              Tim teknis Solutech Asia siap memberikan dukungan komprehensif untuk setiap kebutuhan IT Anda — dari instalasi hingga troubleshooting.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam.
             </p>
           </div>
 
@@ -50,13 +50,13 @@ export default function DukunganPage() {
                 <Globe className="text-brand-accent w-6 h-6" />
               </div>
               <h3 className="font-bold text-brand-text text-lg mb-2">
-                Customer Portal
+                Lorem Ipsum
               </h3>
               <p className="text-brand-muted text-sm leading-relaxed mb-4">
-                Akses portal pelanggan untuk tracking pesanan dan status garansi perangkat Anda.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt.
               </p>
               <button className="text-brand-accent text-sm font-medium hover:underline">
-                Akses Portal →
+                Lorem Ipsum →
               </button>
             </div>
 
@@ -66,13 +66,13 @@ export default function DukunganPage() {
                 <MessageCircle className="text-brand-accent w-6 h-6" />
               </div>
               <h3 className="font-bold text-brand-text text-lg mb-2">
-                WhatsApp Support
+                Dolor Sit Amet
               </h3>
               <p className="text-brand-muted text-sm leading-relaxed mb-4">
-                Hubungi tim support kami langsung via WhatsApp untuk respons cepat dan solusi tepat.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt.
               </p>
               <a href={WHATSAPP_URL} className="text-brand-accent text-sm font-medium hover:underline">
-                Chat Sekarang →
+                Lorem Ipsum →
               </a>
             </div>
 
@@ -82,13 +82,13 @@ export default function DukunganPage() {
                 <Headphones className="text-brand-accent w-6 h-6" />
               </div>
               <h3 className="font-bold text-brand-text text-lg mb-2">
-                Technical Support
+                Consectetur Adipiscing
               </h3>
               <p className="text-brand-muted text-sm leading-relaxed mb-4">
-                Layanan dukungan teknis on-site dan remote untuk instalasi, konfigurasi, dan troubleshoot.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt.
               </p>
               <a href={WHATSAPP_URL} className="text-brand-accent text-sm font-medium hover:underline">
-                Hubungi Kami →
+                Lorem Ipsum →
               </a>
             </div>
           </div>
@@ -101,13 +101,13 @@ export default function DukunganPage() {
                 <BookOpen className="text-brand-accent w-6 h-6" />
               </div>
               <h3 className="font-bold text-brand-text text-lg mb-2">
-                Dokumentasi
+                Lorem Ipsum
               </h3>
               <p className="text-brand-muted text-sm leading-relaxed mb-4">
-                Panduan teknis, manual produk, dan dokumentasi konfigurasi perangkat.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor.
               </p>
               <button className="text-brand-accent text-sm font-medium hover:underline">
-                Lihat Dokumen →
+                Lorem Ipsum →
               </button>
             </div>
 
@@ -117,13 +117,13 @@ export default function DukunganPage() {
                 <FileText className="text-brand-accent w-6 h-6" />
               </div>
               <h3 className="font-bold text-brand-text text-lg mb-2">
-                Syarat & Ketentuan
+                Dolor & Adipiscing
               </h3>
               <p className="text-brand-muted text-sm leading-relaxed mb-4">
-                Informasi lengkap garansi, kebijakan pengembalian, dan ketentuan layanan kami.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor.
               </p>
               <Link href="/syarat-ketentuan" className="text-brand-accent text-sm font-medium hover:underline">
-                Baca Selengkapnya →
+                Lorem Ipsum →
               </Link>
             </div>
           </div>
@@ -131,13 +131,13 @@ export default function DukunganPage() {
           {/* CTA Section */}
           <div className="text-center mt-12 pt-12 border-t border-brand-border">
             <h3 className="text-brand-text font-semibold text-xl mb-3">
-              Butuh bantuan segera?
+              Lorem ipsum dolor sit amet?
             </h3>
             <a
               href={WHATSAPP_URL}
               className="inline-block bg-brand-accent text-black font-semibold px-10 py-3.5 rounded-sm hover:bg-brand-accent/90 transition-colors"
             >
-              Hubungi Tim Kami
+              Lorem Ipsum Dolor
             </a>
           </div>
         </div>

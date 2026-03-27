@@ -12,18 +12,18 @@ export default function Footer() {
           {/* Left Side */}
           <div className="max-w-lg">
             <h2 className="text-white text-2xl font-bold leading-snug">
-              It&apos;s time to support zero pollution,
+              Lorem ipsum dolor sit amet,
               <br />
-              with renewable resources
+              consectetur adipiscing elit
             </h2>
             <div className="mt-4 flex flex-col gap-2">
               <div className="flex items-center gap-2">
                 <CheckCircle className="w-4 h-4 text-brand-accent flex-shrink-0" />
-                <span className="text-white/60 text-sm">Guaranteed for more than 25 years</span>
+                <span className="text-white/60 text-sm">Lorem ipsum dolor sit amet consectetur</span>
               </div>
               <div className="flex items-center gap-2">
                 <CheckCircle className="w-4 h-4 text-brand-accent flex-shrink-0" />
-                <span className="text-white/60 text-sm">Support for the latest technology</span>
+                <span className="text-white/60 text-sm">Dolor sit amet consectetur adipiscing</span>
               </div>
             </div>
           </div>
@@ -33,7 +33,7 @@ export default function Footer() {
             href={WHATSAPP_URL}
             className="border border-white/40 text-white px-8 py-3 rounded-sm hover:bg-white/10 transition-colors"
           >
-            Get in Touch
+            Lorem Ipsum
           </Link>
         </div>
       </div>
@@ -53,24 +53,24 @@ export default function Footer() {
                 className="h-8 w-auto mb-4"
               />
               <p className="text-white/40 text-sm mt-2 max-w-sm">
-                Kami kelola IT Anda, sehingga Anda bisa fokus pada bisnis.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               </p>
               <div className="flex items-center gap-1 mt-4">
                 <MapPin className="w-3 h-3 text-white/30" />
-                <span className="text-white/30 text-xs">Jatinegara, Jakarta Timur</span>
+                <span className="text-white/30 text-xs">Lorem, City</span>
               </div>
             </div>
 
             {/* Column 3: Layanan */}
             <div>
-              <h3 className="text-white font-semibold text-sm mb-4">Layanan</h3>
+              <h3 className="text-white font-semibold text-sm mb-4">Lorem 1</h3>
               <ul className="space-y-3">
                 <li>
                   <Link
                     href="/layanan#hardware-provider"
                     className="text-white/50 hover:text-white text-sm transition-colors"
                   >
-                    Hardware Provider
+                    Lorem Ipsum
                   </Link>
                 </li>
                 <li>
@@ -78,7 +78,7 @@ export default function Footer() {
                     href="/layanan#managed-services"
                     className="text-white/50 hover:text-white text-sm transition-colors"
                   >
-                    Managed Services
+                    Dolor Sit
                   </Link>
                 </li>
                 <li>
@@ -86,7 +86,7 @@ export default function Footer() {
                     href="/layanan#it-support"
                     className="text-white/50 hover:text-white text-sm transition-colors"
                   >
-                    IT Support
+                    Amet Lorem
                   </Link>
                 </li>
                 <li>
@@ -94,7 +94,7 @@ export default function Footer() {
                     href="/layanan#cyber-security"
                     className="text-white/50 hover:text-white text-sm transition-colors"
                   >
-                    Cyber Security
+                    Consectetur
                   </Link>
                 </li>
                 <li>
@@ -102,7 +102,7 @@ export default function Footer() {
                     href="/layanan#cloud-computing"
                     className="text-white/50 hover:text-white text-sm transition-colors"
                   >
-                    Cloud Computing
+                    Adipiscing
                   </Link>
                 </li>
                 <li>
@@ -110,7 +110,7 @@ export default function Footer() {
                     href="/layanan#rental-hardware"
                     className="text-white/50 hover:text-white text-sm transition-colors"
                   >
-                    Rental Hardware
+                    Elit Sed
                   </Link>
                 </li>
               </ul>
@@ -118,7 +118,7 @@ export default function Footer() {
 
             {/* Column 4: Perusahaan */}
             <div>
-              <h3 className="text-white font-semibold text-sm mb-4">Perusahaan</h3>
+              <h3 className="text-white font-semibold text-sm mb-4">Lorem 2</h3>
               <ul className="space-y-3">
                 {FOOTER_LINKS.map((link) => (
                   <li key={link.href}>
@@ -135,7 +135,7 @@ export default function Footer() {
 
             {/* Column 5: Kontak */}
             <div>
-              <h3 className="text-white font-semibold text-sm mb-4">Kontak</h3>
+              <h3 className="text-white font-semibold text-sm mb-4">Lorem 3</h3>
               <ul className="space-y-3">
                 <li>
                   <Link
@@ -147,14 +147,14 @@ export default function Footer() {
                 </li>
                 <li>
                   <a
-                    href="mailto:info@solutechasia.com"
+                    href="mailto:lorem@lorem.com"
                     className="text-white/50 hover:text-white text-sm transition-colors"
                   >
-                    info@solutechasia.com
+                    lorem@lorem.com
                   </a>
                 </li>
                 <li>
-                  <span className="text-white/50 text-sm">Jatinegara, Jakarta Timur</span>
+                  <span className="text-white/50 text-sm">Lorem, City</span>
                 </li>
               </ul>
             </div>
@@ -163,7 +163,7 @@ export default function Footer() {
           {/* Bottom Bar */}
           <div className="border-t border-white/5 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-white/30 text-xs">
-              © 2025 Solutech Asia. All rights reserved.
+              © 2025 Lorem Ipsum. All rights reserved.
             </p>
             <div className="flex items-center gap-4">
               <a

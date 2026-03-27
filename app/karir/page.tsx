@@ -15,19 +15,19 @@ export default function KarirPage() {
               Home
             </Link>
             <ChevronRight className="w-3 h-3" />
-            <span className="text-white/60">Karir</span>
+            <span className="text-white/60">Lorem Ipsum</span>
           </div>
 
           <div className="inline-flex items-center gap-2 bg-brand-accent/10 border border-brand-accent/20 text-brand-accent text-xs font-medium px-4 py-1.5 rounded-full mb-4">
-            WE HELP INDUSTRIES WE HELP
+            LOREM IPSUM DOLOR
           </div>
 
           <h1 className="text-4xl lg:text-5xl font-bold text-white mt-4">
-            Karir
+            Lorem Ipsum
           </h1>
 
           <p className="text-white/50 text-base mt-4 max-w-2xl">
-            Bergabunglah bersama tim Solutech Asia dan bangun karir IT Anda bersama kami.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore.
           </p>
         </div>
       </section>
@@ -36,10 +36,10 @@ export default function KarirPage() {
       <section className="bg-white py-16 px-6">
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-3xl font-bold text-brand-text mb-3">
-            Kesempatan Bergabung dengan Solutech Asia
+            Lorem Ipsum Dolor Sit Amet Consectetur
           </h2>
           <p className="text-brand-muted mb-12 max-w-2xl mx-auto">
-            Kami selalu mencari talenta terbaik yang passionate di bidang IT.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor.
           </p>
 
           {/* Job Cards */}
@@ -49,29 +49,29 @@ export default function KarirPage() {
               <div className="h-1 bg-brand-accent" />
               <div className="p-6">
                 <h3 className="font-bold text-brand-text text-lg mb-1">
-                  IT Technical
+                  Lorem Ipsum
                 </h3>
                 <div className="flex items-center gap-1 text-brand-muted text-xs mb-4">
                   <MapPin className="w-3 h-3" />
-                  Jatinegara, Jakarta Timur
+                  Lorem, City
                 </div>
 
                 <div className="border-t border-brand-border pt-4 space-y-0">
                   <div className="flex items-center gap-3 py-2.5 border-b border-brand-border">
                     <CheckCircle className="text-brand-accent w-4 h-4 flex-shrink-0" />
-                    <span className="text-sm text-brand-text">Network Engineer</span>
+                    <span className="text-sm text-brand-text">Lorem Position 1</span>
                   </div>
                   <div className="flex items-center gap-3 py-2.5 border-b border-brand-border">
                     <CheckCircle className="text-brand-accent w-4 h-4 flex-shrink-0" />
-                    <span className="text-sm text-brand-text">System Administrator</span>
+                    <span className="text-sm text-brand-text">Lorem Position 2</span>
                   </div>
                   <div className="flex items-center gap-3 py-2.5 border-b border-brand-border">
                     <CheckCircle className="text-brand-accent w-4 h-4 flex-shrink-0" />
-                    <span className="text-sm text-brand-text">IT Support Specialist</span>
+                    <span className="text-sm text-brand-text">Lorem Position 3</span>
                   </div>
                   <div className="flex items-center gap-3 py-2.5">
                     <CheckCircle className="text-brand-accent w-4 h-4 flex-shrink-0" />
-                    <span className="text-sm text-brand-text">Cloud Engineer</span>
+                    <span className="text-sm text-brand-text">Lorem Position 4</span>
                   </div>
                 </div>
               </div>
@@ -82,29 +82,29 @@ export default function KarirPage() {
               <div className="h-1 bg-blue-500" />
               <div className="p-6">
                 <h3 className="font-bold text-brand-text text-lg mb-1">
-                  Business & Sales
+                  Dolor & Sit
                 </h3>
                 <div className="flex items-center gap-1 text-brand-muted text-xs mb-4">
                   <MapPin className="w-3 h-3" />
-                  Jatinegara, Jakarta Timur
+                  Lorem, City
                 </div>
 
                 <div className="border-t border-brand-border pt-4 space-y-0">
                   <div className="flex items-center gap-3 py-2.5 border-b border-brand-border">
                     <CheckCircle className="text-blue-500 w-4 h-4 flex-shrink-0" />
-                    <span className="text-sm text-brand-text">Account Manager</span>
+                    <span className="text-sm text-brand-text">Lorem Position 5</span>
                   </div>
                   <div className="flex items-center gap-3 py-2.5 border-b border-brand-border">
                     <CheckCircle className="text-blue-500 w-4 h-4 flex-shrink-0" />
-                    <span className="text-sm text-brand-text">Business Development</span>
+                    <span className="text-sm text-brand-text">Lorem Position 6</span>
                   </div>
                   <div className="flex items-center gap-3 py-2.5 border-b border-brand-border">
                     <CheckCircle className="text-blue-500 w-4 h-4 flex-shrink-0" />
-                    <span className="text-sm text-brand-text">IT Sales Consultant</span>
+                    <span className="text-sm text-brand-text">Lorem Position 7</span>
                   </div>
                   <div className="flex items-center gap-3 py-2.5">
                     <CheckCircle className="text-blue-500 w-4 h-4 flex-shrink-0" />
-                    <span className="text-sm text-brand-text">Client Relations</span>
+                    <span className="text-sm text-brand-text">Lorem Position 8</span>
                   </div>
                 </div>
               </div>
@@ -114,7 +114,7 @@ export default function KarirPage() {
           {/* Motivational Quote */}
           <div className="mt-10">
             <p className="italic text-brand-muted text-lg">
-              "This is your sign, go for it."
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
             </p>
           </div>
 
@@ -122,15 +122,15 @@ export default function KarirPage() {
           <div className="mt-8 flex flex-wrap justify-center gap-8">
             <div className="flex items-center gap-2">
               <Package className="text-brand-accent w-5 h-5" />
-              <span className="text-xs text-brand-muted">Gaji Kompetitif</span>
+              <span className="text-xs text-brand-muted">Lorem Ipsum</span>
             </div>
             <div className="flex items-center gap-2">
               <TrendingUp className="text-brand-accent w-5 h-5" />
-              <span className="text-xs text-brand-muted">Jenjang Karir Jelas</span>
+              <span className="text-xs text-brand-muted">Dolor Sit Amet</span>
             </div>
             <div className="flex items-center gap-2">
               <Users className="text-brand-accent w-5 h-5" />
-              <span className="text-xs text-brand-muted">Tim yang Solid</span>
+              <span className="text-xs text-brand-muted">Consectetur Adipiscing</span>
             </div>
           </div>
 
@@ -140,7 +140,7 @@ export default function KarirPage() {
               href={`${WHATSAPP_URL}%20-%20Halo%2C%20saya%20ingin%20melamar%20posisi%20di%20Solutech%20Asia`}
               className="inline-block bg-brand-accent text-black font-bold px-12 py-4 rounded-sm text-sm hover:bg-brand-accent/90 transition-colors"
             >
-              LAMAR SEKARANG
+              LOREM IPSUM
             </a>
           </div>
         </div>

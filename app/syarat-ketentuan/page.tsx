@@ -14,19 +14,19 @@ export default function SyaratKetentuanPage() {
               Home
             </Link>
             <ChevronRight className="w-3 h-3" />
-            <span className="text-white/60">Syarat & Ketentuan</span>
+            <span className="text-white/60">Lorem Ipsum</span>
           </div>
 
           <div className="inline-flex items-center gap-2 bg-brand-accent/10 border border-brand-accent/20 text-brand-accent text-xs font-medium px-4 py-1.5 rounded-full mb-4">
-            KEBIJAKAN
+            LOREM IPSUM
           </div>
 
           <h1 className="text-4xl lg:text-5xl font-bold text-white mt-4">
-            Syarat & Ketentuan
+            Lorem Ipsum & Dolor
           </h1>
 
           <p className="text-white/50 text-base mt-4 max-w-2xl">
-            Ketentuan layanan dan kebijakan Solutech Asia.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </p>
         </div>
       </section>
@@ -35,10 +35,10 @@ export default function SyaratKetentuanPage() {
       <section className="bg-white py-16 px-6">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-3xl font-bold text-brand-text text-center mb-3">
-            Ketentuan Layanan Kami
+            Lorem Ipsum Dolor Sit
           </h2>
           <p className="text-brand-muted text-center mb-12 max-w-2xl mx-auto">
-            Harap baca ketentuan berikut sebelum menggunakan layanan Solutech Asia.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor.
           </p>
 
           {/* 3 Highlight Cards */}
@@ -47,13 +47,13 @@ export default function SyaratKetentuanPage() {
             <div className="bg-[#FFF8F5] border border-orange-100 rounded-lg p-6">
               <div className="w-2 h-2 rounded-full bg-brand-accent mb-5" />
               <h3 className="font-semibold text-brand-text mb-2">
-                Garansi Produk 1 Tahun
+                Lorem Ipsum Dolor
               </h3>
               <p className="text-brand-muted text-sm leading-relaxed">
-                Semua perangkat yang dibeli dari Solutech Asia dilengkapi garansi resmi 1 tahun. Jika ditemukan kerusakan akibat cacat produksi, kami akan mengganti perangkat.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam.
               </p>
               <button className="text-brand-accent text-sm mt-4 font-medium hover:underline">
-                Selengkapnya →
+                Lorem Ipsum →
               </button>
             </div>
 
@@ -61,13 +61,13 @@ export default function SyaratKetentuanPage() {
             <div className="bg-[#FFF8F5] border border-orange-100 rounded-lg p-6">
               <div className="w-2 h-2 rounded-full bg-brand-accent mb-5" />
               <h3 className="font-semibold text-brand-text mb-2">
-                Keaslian Perangkat
+                Dolor Sit Amet
               </h3>
               <p className="text-brand-muted text-sm leading-relaxed">
-                Kami menjamin bahwa seluruh perangkat yang didistribusikan adalah ASLI. Bilamana ditemukan perangkat tidak asli, kami bersedia mengganti uang dan memberikan kompensasi.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam.
               </p>
               <button className="text-brand-accent text-sm mt-4 font-medium hover:underline">
-                Selengkapnya →
+                Lorem Ipsum →
               </button>
             </div>
 
@@ -75,13 +75,13 @@ export default function SyaratKetentuanPage() {
             <div className="bg-[#FFF8F5] border border-orange-100 rounded-lg p-6">
               <div className="w-2 h-2 rounded-full bg-brand-accent mb-5" />
               <h3 className="font-semibold text-brand-text mb-2">
-                Kebijakan Pembelian
+                Consectetur Adipiscing
               </h3>
               <p className="text-brand-muted text-sm leading-relaxed">
-                Pembelian dapat dilakukan via WhatsApp. Kami melayani dari seluruh Indonesia. Hubungi kami untuk informasi harga, ketersediaan, dan estimasi pengiriman.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam.
               </p>
               <button className="text-brand-accent text-sm mt-4 font-medium hover:underline">
-                Selengkapnya →
+                Lorem Ipsum →
               </button>
             </div>
           </div>
@@ -91,52 +91,52 @@ export default function SyaratKetentuanPage() {
             {/* Section 1 - Service Usage */}
             <div>
               <h3 className="text-2xl font-bold text-brand-text mb-4">
-                Ketentuan Penggunaan Layanan
+                Lorem Ipsum Dolor Sit Amet
               </h3>
               <p className="text-brand-muted leading-relaxed mb-4">
-                Dengan menggunakan layanan Solutech Asia, Anda menyetujui untuk mematuhi semua syarat dan ketentuan yang berlaku. Layanan kami mencakup penjualan perangkat IT, instalasi, konfigurasi, managed services, dan dukungan teknis untuk infrastruktur IT enterprise.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
               </p>
               <p className="text-brand-muted leading-relaxed">
-                Kami berhak untuk menolak atau membatalkan pesanan jika kami menemukan informasi yang tidak akurat, penipuan, atau aktivitas mencurigakan lainnya. Semua transaksi harus dilakukan dengan itikad baik dan sesuai dengan ketentuan yang telah disepakati.
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
               </p>
             </div>
 
             {/* Section 2 - Warranty Policy */}
             <div>
               <h3 className="text-2xl font-bold text-brand-text mb-4">
-                Kebijakan Garansi
+                Consectetur Adipiscing Elit
               </h3>
               <p className="text-brand-muted leading-relaxed mb-4">
-                Setiap perangkat yang dibeli dari Solutech Asia dilengkapi dengan garansi resmi selama 1 tahun sejak tanggal pembelian. Garansi mencakup kerusakan akibat cacat produksi atau malfungsi hardware yang bukan disebabkan oleh kesalahan pengguna.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
               </p>
               <p className="text-brand-muted leading-relaxed">
-                Garansi tidak berlaku untuk kerusakan akibat pemakaian yang tidak sesuai, modifikasi tidak resmi, bencana alam, atau force majeure. Untuk klaim garansi, pelanggan wajib menyertakan bukti pembelian dan melaporkan kerusakan maksimal 7 hari sejak kerusakan ditemukan.
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
               </p>
             </div>
 
             {/* Section 3 - Delivery */}
             <div>
               <h3 className="text-2xl font-bold text-brand-text mb-4">
-                Pengiriman & Delivery
+                Lorem Dolor & Ipsum
               </h3>
               <p className="text-brand-muted leading-relaxed mb-4">
-                Solutech Asia berkomitmen memberikan pengiriman tercepat dengan estimasi 3-4 minggu untuk sebagian besar produk. Waktu pengiriman dapat bervariasi tergantung ketersediaan stok, lokasi pengiriman, dan kondisi logistik saat itu.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
               </p>
               <p className="text-brand-muted leading-relaxed">
-                Kami melayani pengiriman ke seluruh Indonesia. Biaya pengiriman akan diinformasikan di awal pemesanan dan dapat bervariasi berdasarkan lokasi tujuan. Pelanggan bertanggung jawab memastikan alamat pengiriman yang akurat dan lengkap untuk menghindari keterlambatan.
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
               </p>
             </div>
 
             {/* Section 4 - Privacy Policy */}
             <div>
               <h3 className="text-2xl font-bold text-brand-text mb-4">
-                Kebijakan Privasi
+                Amet Sit Consectetur
               </h3>
               <p className="text-brand-muted leading-relaxed mb-4">
-                Solutech Asia berkomitmen melindungi privasi dan data pribadi pelanggan. Informasi yang kami kumpulkan hanya digunakan untuk keperluan pemrosesan pesanan, pengiriman, dan komunikasi terkait layanan yang diberikan.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
               </p>
               <p className="text-brand-muted leading-relaxed">
-                Kami tidak akan membagikan, menjual, atau menyewakan informasi pribadi pelanggan kepada pihak ketiga tanpa persetujuan eksplisit, kecuali diwajibkan oleh hukum atau untuk keperluan operasional bisnis seperti pengiriman dan pembayaran. Data pelanggan disimpan dengan aman dan hanya dapat diakses oleh personel resmi Solutech Asia.
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
               </p>
             </div>
           </div>

@@ -51,7 +51,7 @@ export default function HeroSection() {
               >
                 <div className="inline-flex items-center gap-2 bg-brand-accent/10 border border-brand-accent/30 text-brand-accent text-xs font-medium px-4 py-2 rounded-full backdrop-blur-sm">
                   <div className="w-2 h-2 rounded-full bg-brand-accent animate-pulse" />
-                  Enterprise IT Solutions — Indonesia
+                  Lorem ipsum dolor sit amet
                 </div>
               </motion.div>
 
@@ -67,10 +67,10 @@ export default function HeroSection() {
                   transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
                   className="text-5xl lg:text-7xl font-bold text-white leading-[1.05] tracking-tighter mb-4"
                 >
-                  Kami Kelola
+                  Lorem Ipsum
                   <br />
                   <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-accent to-emerald-400">
-                    IT Anda
+                    Dolor Sit
                   </span>
                 </motion.h1>
                 <motion.p
@@ -78,9 +78,9 @@ export default function HeroSection() {
                   transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
                   className="text-3xl lg:text-4xl font-bold text-white/60 leading-[1.1]"
                 >
-                  Sehingga Anda Fokus
+                  Amet Consectetur
                   <br />
-                  Pada Bisnis.
+                  Adipiscing Elit.
                 </motion.p>
               </motion.div>
 
@@ -91,9 +91,9 @@ export default function HeroSection() {
                 transition={{ delay: 0.8 }}
                 className="text-white/50 text-lg leading-relaxed max-w-lg mb-10"
               >
-                Distributor independen perangkat jaringan & server terpercaya.{" "}
-                <span className="text-brand-accent font-medium">Delivery 3-4 minggu</span>, garansi
-                1 tahun, harga kompetitif — melayani seluruh Indonesia.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.{" "}
+                <span className="text-brand-accent font-medium">Sed do eiusmod tempor</span>, incididunt
+                ut labore et dolore magna aliqua ut enim ad minim veniam.
               </motion.p>
 
               {/* CTA Buttons */}
@@ -109,14 +109,14 @@ export default function HeroSection() {
                   whileTap={{ scale: 0.98 }}
                   className="group bg-brand-accent text-black font-bold px-8 py-4 rounded-sm text-sm inline-flex items-center gap-2 shadow-lg shadow-brand-accent/20 hover:shadow-brand-accent/40 transition-shadow"
                 >
-                  Konsultasi Gratis
+                  Lorem Ipsum
                   <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                 </motion.a>
                 <Link
                   href="/layanan"
                   className="border border-white/20 text-white font-medium px-8 py-4 rounded-sm text-sm hover:bg-white/5 hover:border-white/40 transition-all backdrop-blur-sm"
                 >
-                  Lihat Layanan Kami
+                  Dolor Sit Amet
                 </Link>
               </motion.div>
 
@@ -130,18 +130,18 @@ export default function HeroSection() {
                 <div>
                   <div className="text-3xl font-bold text-brand-accent mb-1">3-4</div>
                   <div className="text-white/40 text-xs uppercase tracking-wider">
-                    Minggu Delivery
+                    Lorem Ipsum
                   </div>
                 </div>
                 <div>
-                  <div className="text-3xl font-bold text-brand-accent mb-1">1 Tahun</div>
+                  <div className="text-3xl font-bold text-brand-accent mb-1">1 Dolor</div>
                   <div className="text-white/40 text-xs uppercase tracking-wider">
-                    Garansi Gratis
+                    Sit Amet
                   </div>
                 </div>
                 <div>
                   <div className="text-3xl font-bold text-brand-accent mb-1">100%</div>
-                  <div className="text-white/40 text-xs uppercase tracking-wider">Original</div>
+                  <div className="text-white/40 text-xs uppercase tracking-wider">Consectetur</div>
                 </div>
               </motion.div>
 
@@ -161,7 +161,7 @@ export default function HeroSection() {
                   {/* Content */}
                   <div className="flex-1">
                     <div className="text-white/40 text-xs uppercase tracking-wider mb-3">
-                      Anggota Resmi
+                      Lorem Ipsum
                     </div>
 
                     {/* Logos Container */}
@@ -207,7 +207,7 @@ export default function HeroSection() {
 
                     {/* Description Text */}
                     <p className="text-white/30 text-xs mt-3 leading-relaxed">
-                      Terdaftar sebagai anggota resmi HIPMI dan KADIN Indonesia
+                      Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod
                     </p>
                   </div>
                 </div>
@@ -237,12 +237,12 @@ export default function HeroSection() {
                         <div className="w-3 h-3 rounded-full bg-green-500/80" />
                       </div>
                       <div className="text-white/40 text-xs flex items-center gap-1.5 ml-4">
-                        <span>Solutech Dashboard</span>
+                        <span>Lorem Dashboard</span>
                         <span>/</span>
-                        <span className="text-brand-accent">Monitoring</span>
+                        <span className="text-brand-accent">Ipsum</span>
                       </div>
                     </div>
-                    <div className="text-white/30 text-xs">Real-time</div>
+                    <div className="text-white/30 text-xs">Dolor Sit</div>
                   </div>
 
                   {/* Dashboard Grid */}
@@ -253,7 +253,7 @@ export default function HeroSection() {
                       <div className="col-span-2 bg-gradient-to-br from-white/5 to-white/[0.02] backdrop-blur-sm rounded-lg p-4 border border-white/10 hover:border-brand-accent/30 transition-colors group">
                         <div className="flex items-start justify-between mb-3">
                           <div className="text-white/40 text-xs font-medium uppercase tracking-wider">
-                            Network Uptime
+                            Lorem Uptime
                           </div>
                           <Activity className="w-4 h-4 text-brand-accent" />
                         </div>
@@ -262,15 +262,15 @@ export default function HeroSection() {
                           <div className="h-1 flex-1 bg-white/5 rounded-full overflow-hidden">
                             <div className="h-full w-[99.8%] bg-gradient-to-r from-brand-accent to-emerald-400" />
                           </div>
-                          <span className="text-white/30 text-[10px]">Excellent</span>
+                          <span className="text-white/30 text-[10px]">Lorem</span>
                         </div>
                       </div>
 
                       {/* Server Status */}
                       <div className="bg-gradient-to-br from-brand-accent/20 to-brand-accent/5 backdrop-blur-sm rounded-lg p-4 border border-brand-accent/30 flex flex-col items-center justify-center">
                         <Server className="w-8 h-8 text-brand-accent mb-2" />
-                        <div className="text-brand-accent text-sm font-bold">Active</div>
-                        <div className="text-white/30 text-xs">24/7</div>
+                        <div className="text-brand-accent text-sm font-bold">Lorem</div>
+                        <div className="text-white/30 text-xs">Ipsum</div>
                       </div>
                     </div>
 
@@ -278,9 +278,9 @@ export default function HeroSection() {
                     <div className="bg-gradient-to-br from-white/5 to-white/[0.02] backdrop-blur-sm rounded-lg p-4 border border-white/10">
                       <div className="flex items-center justify-between mb-3">
                         <div className="text-white/40 text-xs font-medium uppercase tracking-wider">
-                          Network Traffic
+                          Lorem Traffic
                         </div>
-                        <div className="text-brand-accent text-xs font-mono">Live</div>
+                        <div className="text-brand-accent text-xs font-mono">Ipsum</div>
                       </div>
                       <div className="relative h-20">
                         <svg viewBox="0 0 300 60" className="w-full h-full" preserveAspectRatio="none">
@@ -319,7 +319,7 @@ export default function HeroSection() {
                       </div>
                       <div className="flex items-center justify-between mt-2">
                         <span className="text-white/30 text-xs">Avg: 2.4 Gbps</span>
-                        <span className="text-brand-accent text-xs font-medium">+12% ↑</span>
+                        <span className="text-brand-accent text-xs font-medium">+12%</span>
                       </div>
                     </div>
 
@@ -329,21 +329,21 @@ export default function HeroSection() {
                       <div className="bg-gradient-to-br from-white/5 to-white/[0.02] backdrop-blur-sm rounded-lg p-4 border border-white/10">
                         <Database className="w-5 h-5 text-blue-400 mb-2" />
                         <div className="text-white text-2xl font-bold">247</div>
-                        <div className="text-white/40 text-xs">Devices</div>
+                        <div className="text-white/40 text-xs">Lorem</div>
                       </div>
 
                       {/* CPU Usage */}
                       <div className="bg-gradient-to-br from-white/5 to-white/[0.02] backdrop-blur-sm rounded-lg p-4 border border-white/10">
                         <Cpu className="w-5 h-5 text-purple-400 mb-2" />
                         <div className="text-white text-2xl font-bold">24%</div>
-                        <div className="text-white/40 text-xs">CPU Load</div>
+                        <div className="text-white/40 text-xs">Ipsum</div>
                       </div>
 
                       {/* Security */}
                       <div className="bg-gradient-to-br from-brand-accent/20 to-brand-accent/5 backdrop-blur-sm rounded-lg p-4 border border-brand-accent/30">
                         <Shield className="w-5 h-5 text-brand-accent mb-2" />
-                        <div className="text-brand-accent text-sm font-bold">Protected</div>
-                        <div className="text-white/40 text-xs">All Systems</div>
+                        <div className="text-brand-accent text-sm font-bold">Dolor</div>
+                        <div className="text-white/40 text-xs">Sit Amet</div>
                       </div>
                     </div>
                   </div>
@@ -359,8 +359,8 @@ export default function HeroSection() {
                   <div className="flex items-center gap-3">
                     <Network className="w-5 h-5" />
                     <div>
-                      <div className="text-xs font-medium opacity-80">System Status</div>
-                      <div className="text-sm font-bold">All Systems Operational</div>
+                      <div className="text-xs font-medium opacity-80">Lorem Status</div>
+                      <div className="text-sm font-bold">Ipsum Dolor Operational</div>
                     </div>
                   </div>
                 </motion.div>

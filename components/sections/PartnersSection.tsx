@@ -22,7 +22,7 @@ export default function PartnersSection() {
             viewport={{ once: true }}
             className="text-brand-text text-3xl lg:text-4xl font-bold mb-4"
           >
-            IT Solutions from the World's Top Manufacturers
+            Lorem Ipsum Dolor Sit Amet Consectetur
           </motion.h2>
 
           <motion.p
@@ -32,7 +32,7 @@ export default function PartnersSection() {
             transition={{ delay: 0.1 }}
             className="text-brand-muted text-base max-w-2xl mx-auto"
           >
-            Authorized distributor resmi perangkat jaringan & server dari brand global terpercaya.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor.
           </motion.p>
         </div>
 
@@ -106,16 +106,16 @@ export default function PartnersSection() {
         <div className="grid md:grid-cols-3 gap-8 mb-12">
           {[
             {
-              title: "100% Original",
-              desc: "Semua produk dijamin keaslian dengan sertifikat resmi",
+              title: "Lorem Ipsum",
+              desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
             },
             {
-              title: "Garansi 1 Tahun",
-              desc: "Full warranty support untuk semua perangkat",
+              title: "Dolor Sit Amet",
+              desc: "Lorem ipsum dolor sit amet consectetur adipiscing",
             },
             {
-              title: "Harga Terbaik",
-              desc: "Competitive pricing sebagai authorized distributor",
+              title: "Consectetur",
+              desc: "Lorem ipsum dolor sit amet consectetur adipiscing elit",
             },
           ].map((benefit, i) => (
             <motion.div
@@ -143,10 +143,10 @@ export default function PartnersSection() {
           className="text-center bg-brand-gray/50 border border-brand-border rounded-xl p-8"
         >
           <h3 className="text-brand-text text-xl font-bold mb-2">
-            Butuh Konsultasi Produk?
+            Lorem Ipsum Dolor Sit?
           </h3>
           <p className="text-brand-muted text-sm mb-6 max-w-2xl mx-auto">
-            Tim sales kami siap membantu Anda memilih perangkat yang tepat sesuai kebutuhan infrastruktur IT Anda
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
@@ -154,13 +154,13 @@ export default function PartnersSection() {
               className="bg-brand-accent text-black font-semibold px-8 py-3 rounded-sm hover:bg-brand-accent/90 transition-colors inline-flex items-center justify-center gap-2"
             >
               <CheckCircle className="w-5 h-5" />
-              Hubungi Sales Team
+              Lorem Ipsum
             </a>
             <a
               href="/produk"
               className="border-2 border-brand-accent text-brand-accent font-semibold px-8 py-3 rounded-sm hover:bg-brand-accent hover:text-black transition-colors inline-flex items-center justify-center"
             >
-              Lihat Katalog Produk
+              Dolor Sit Amet
             </a>
           </div>
         </motion.div>

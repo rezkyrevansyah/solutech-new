@@ -1,8 +1,10 @@
 "use client";
 
+import Link from "next/link";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import { Quote, Star, Building2, CheckCircle } from "lucide-react";
+import { WHATSAPP_URL } from "@/lib/constants";
 
 // REAL Solutech Asia Customers
 const clients = [
@@ -30,24 +32,24 @@ const trustedCompanies = [
 
 const testimonials = [
   {
-    name: "IT Infrastructure Team",
-    position: "Network Manager",
-    company: "Multipolar Technology",
-    quote: "Delivery time yang luar biasa cepat, hanya 3 minggu! Tim support sangat responsif dan profesional dalam menangani kebutuhan infrastruktur kami.",
+    name: "Lorem Ipsum Team",
+    position: "Lorem Manager",
+    company: "Lorem Technology",
+    quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim.",
     rating: 5,
   },
   {
-    name: "Operations Director",
-    position: "Head of IT",
-    company: "Kereta Api Indonesia",
-    quote: "Perangkat 100% original dengan harga kompetitif. Managed services mereka sangat membantu operasional kami berjalan lancar 24/7.",
+    name: "Lorem Dolor Director",
+    position: "Head of Lorem",
+    company: "Lorem Ipsum Corp",
+    quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
     rating: 5,
   },
   {
-    name: "Digital Transformation Lead",
-    position: "CTO",
-    company: "MyRepublic",
-    quote: "Partnership yang sangat baik. Solutech Asia memahami kebutuhan enterprise dan selalu memberikan solusi terbaik untuk infrastruktur telekomunikasi kami.",
+    name: "Lorem Consectetur Lead",
+    position: "Lorem CTO",
+    company: "Lorem Ipsum Ltd",
+    quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.",
     rating: 5,
   },
 ];
@@ -68,7 +70,7 @@ export default function CustomersSection() {
             className="inline-flex items-center gap-2 bg-brand-accent/10 border border-brand-accent/20 text-brand-accent text-xs font-medium px-4 py-1.5 rounded-full mb-4"
           >
             <Building2 className="w-3 h-3" />
-            Our Happy Customers
+            Lorem Happy Ipsum
           </motion.div>
 
           <motion.h2
@@ -78,7 +80,7 @@ export default function CustomersSection() {
             transition={{ delay: 0.1 }}
             className="text-3xl lg:text-4xl font-bold text-white"
           >
-            Pelanggan Kami dan Terus Bertambah
+            Lorem Ipsum Dolor Sit Amet
           </motion.h2>
 
           <motion.p
@@ -88,7 +90,7 @@ export default function CustomersSection() {
             transition={{ delay: 0.2 }}
             className="text-white/50 text-sm mt-3 max-w-2xl mx-auto"
           >
-            Dipercaya oleh perusahaan terkemuka di Indonesia untuk kebutuhan infrastruktur IT mereka
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor
           </motion.p>
         </div>
 
@@ -231,9 +233,9 @@ export default function CustomersSection() {
           className="bg-gradient-to-r from-brand-accent/10 via-brand-accent/5 to-brand-accent/10 border border-brand-accent/20 rounded-xl p-8"
         >
           <div className="text-center mb-6">
-            <h3 className="text-white text-lg font-semibold mb-2">Dipercaya oleh tim dari</h3>
+            <h3 className="text-white text-lg font-semibold mb-2">Lorem ipsum dolor sit</h3>
             <p className="text-white/50 text-xs">
-              Perusahaan global yang mempercayai infrastruktur IT kepada partner kami
+              Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod
             </p>
           </div>
 
@@ -262,10 +264,10 @@ export default function CustomersSection() {
         {/* Stats Row */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-12">
           {[
-            { value: "13+", label: "Enterprise Clients" },
-            { value: "500+", label: "Projects Completed" },
-            { value: "98%", label: "Satisfaction Rate" },
-            { value: "24/7", label: "Support Available" },
+            { value: "13+", label: "Lorem Ipsum" },
+            { value: "500+", label: "Dolor Sit" },
+            { value: "98%", label: "Amet Lorem" },
+            { value: "24/7", label: "Consectetur" },
           ].map((stat, i) => (
             <motion.div
               key={i}
@@ -282,6 +284,34 @@ export default function CustomersSection() {
             </motion.div>
           ))}
         </div>
+
+        {/* CTA Block */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ delay: 0.2 }}
+          className="mt-12 p-8 bg-white/5 border border-white/10 rounded-xl flex flex-col sm:flex-row justify-between items-start sm:items-center gap-6"
+        >
+          <div>
+            <h3 className="text-white font-semibold text-lg mb-1">Lorem ipsum dolor sit amet?</h3>
+            <p className="text-white/50 text-sm">Lorem ipsum consectetur adipiscing elit sed do eiusmod.</p>
+          </div>
+          <div className="flex gap-3 flex-shrink-0">
+            <a
+              href={WHATSAPP_URL}
+              className="bg-brand-accent text-black font-semibold px-6 py-3 rounded-sm text-sm hover:bg-brand-accent/90 transition-colors whitespace-nowrap"
+            >
+              Lorem Ipsum →
+            </a>
+            <Link
+              href="/tentang-kami"
+              className="border border-white/20 text-white/70 text-sm px-6 py-3 rounded-sm hover:border-brand-accent hover:text-brand-accent transition-colors whitespace-nowrap"
+            >
+              Lorem Dolor
+            </Link>
+          </div>
+        </motion.div>
 
         {/* Bottom Accent Line */}
         <div className="mt-12 w-24 h-1 bg-gradient-to-r from-transparent via-brand-accent to-transparent mx-auto rounded-full" />

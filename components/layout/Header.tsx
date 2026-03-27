@@ -62,13 +62,13 @@ export default function Header() {
           {/* Right Side Actions */}
           <div className="hidden lg:flex items-center gap-3">
             <button className="border border-brand-accent/50 text-brand-accent text-xs px-3 py-1 rounded-full hover:bg-brand-accent/10 transition-colors">
-              Industries We Help
+              Lorem Ipsum
             </button>
             <Link
               href={WHATSAPP_URL}
               className="bg-brand-accent text-black text-sm font-semibold px-5 py-2 rounded-sm hover:bg-brand-accent/90 transition-colors"
             >
-              Hubungi Kami
+              Lorem Ipsum
             </Link>
           </div>
 
@@ -118,14 +118,14 @@ export default function Header() {
             {/* Mobile CTA */}
             <div className="mt-8 space-y-3">
               <button className="w-full border border-brand-accent/50 text-brand-accent text-sm px-4 py-3 rounded-sm hover:bg-brand-accent/10 transition-colors">
-                Industries We Help
+                Lorem Ipsum
               </button>
               <Link
                 href={WHATSAPP_URL}
                 onClick={() => setMobileMenuOpen(false)}
                 className="block w-full bg-brand-accent text-black text-sm font-semibold px-4 py-3 rounded-sm hover:bg-brand-accent/90 transition-colors text-center"
               >
-                Hubungi Kami
+                Lorem Ipsum
               </Link>
             </div>
           </motion.div>

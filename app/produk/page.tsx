@@ -15,19 +15,19 @@ export default function ProdukPage() {
               Home
             </Link>
             <ChevronRight className="w-3 h-3" />
-            <span className="text-white/60">Produk</span>
+            <span className="text-white/60">Lorem Ipsum</span>
           </div>
 
           <div className="inline-flex items-center gap-2 bg-brand-accent/10 border border-brand-accent/20 text-brand-accent text-xs font-medium px-4 py-1.5 rounded-full mb-4">
-            PRODUK
+            LOREM IPSUM
           </div>
 
           <h1 className="text-4xl lg:text-5xl font-bold text-white mt-4">
-            Produk Kami
+            Lorem Ipsum Dolor
           </h1>
 
           <p className="text-white/50 text-base mt-4 max-w-2xl">
-            Perangkat jaringan dan server dari brand global terpercaya dengan garansi resmi 1 tahun.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
         </div>
       </section>
@@ -36,13 +36,13 @@ export default function ProdukPage() {
       <section className="bg-white py-16 px-6">
         <div className="max-w-7xl mx-auto">
           <div className="inline-flex items-center gap-2 bg-brand-accent/10 border border-brand-accent/20 text-brand-accent text-xs font-medium px-4 py-1.5 rounded-full mb-4">
-            PRODUK
+            LOREM IPSUM
           </div>
           <h2 className="text-3xl font-bold text-brand-text mb-2">
-            Perangkat Jaringan
+            Lorem Ipsum Dolor
           </h2>
           <p className="text-brand-muted text-sm mb-12 max-w-2xl">
-            Perangkat dari merek terbaik dunia
+            Lorem ipsum dolor sit amet consectetur adipiscing elit
           </p>
 
           {/* 3 Product Cards with Images */}
@@ -53,20 +53,20 @@ export default function ProdukPage() {
                 <Router className="text-brand-muted/20 w-24 h-24" />
                 <div className="absolute top-4 right-4">
                   <span className="bg-brand-accent text-black text-xs font-semibold px-3 py-1 rounded-full">
-                    Best Seller
+                    Lorem Ipsum
                   </span>
                 </div>
               </div>
               <div className="p-5">
                 <h3 className="font-bold text-lg text-brand-text mb-2">
-                  Router & Switch
+                  Lorem & Ipsum
                 </h3>
                 <p className="text-brand-muted text-sm mb-4 leading-relaxed">
-                  Perangkat routing dan switching enterprise dari brand global terpercaya
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor
                 </p>
                 <div className="flex items-center gap-1 text-brand-accent text-xs mb-4">
                   <CheckCircle className="w-3 h-3" />
-                  Garansi 1 Tahun
+                  Lorem Ipsum Dolor
                 </div>
                 <a
                   href={WHATSAPP_URL}
@@ -84,14 +84,14 @@ export default function ProdukPage() {
               </div>
               <div className="p-5">
                 <h3 className="font-bold text-lg text-brand-text mb-2">
-                  Access Point WiFi 6
+                  Lorem Ipsum Dolor
                 </h3>
                 <p className="text-brand-muted text-sm mb-4 leading-relaxed">
-                  Access point enterprise dengan teknologi WiFi 6 terbaru
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod
                 </p>
                 <div className="flex items-center gap-1 text-brand-accent text-xs mb-4">
                   <CheckCircle className="w-3 h-3" />
-                  802.11ax Support
+                  Lorem Amet
                 </div>
                 <a
                   href={WHATSAPP_URL}
@@ -109,14 +109,14 @@ export default function ProdukPage() {
               </div>
               <div className="p-5">
                 <h3 className="font-bold text-lg text-brand-text mb-2">
-                  Firewall & Security
+                  Lorem Ipsum Sit
                 </h3>
                 <p className="text-brand-muted text-sm mb-4 leading-relaxed">
-                  Next-generation firewall untuk keamanan jaringan maksimal
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod
                 </p>
                 <div className="flex items-center gap-1 text-brand-accent text-xs mb-4">
                   <CheckCircle className="w-3 h-3" />
-                  IPS/IDS Included
+                  Lorem Consectetur
                 </div>
                 <a
                   href={WHATSAPP_URL}
@@ -135,10 +135,10 @@ export default function ProdukPage() {
         <div className="max-w-7xl mx-auto">
           <div className="max-w-3xl mx-auto text-center mb-8">
             <h2 className="text-brand-text text-3xl font-bold mb-3">
-              Tidak perlu ragu, kami berikan kepastian & keandalan
+              Lorem ipsum dolor sit amet consectetur adipiscing elit
             </h2>
             <p className="text-brand-muted text-sm">
-              Setiap produk kami jamin keaslian dan kualitasnya.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </p>
           </div>
 
@@ -150,46 +150,46 @@ export default function ProdukPage() {
 
             <div className="relative z-10">
               <h3 className="text-white text-2xl font-bold text-center mb-12">
-                Key Features
+                Lorem Ipsum Dolor
               </h3>
 
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                {/* Feature 1 - Speed */}
+                {/* Feature 1 */}
                 <div className="text-center">
                   <div className="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center mx-auto mb-4 backdrop-blur-sm">
                     <Zap className="text-white w-8 h-8" />
                   </div>
                   <h4 className="text-white font-bold text-lg mb-3">
-                    Speed
+                    Lorem Ipsum
                   </h4>
                   <p className="text-white/80 text-sm leading-relaxed">
-                    Pengiriman tercepat 3-4 minggu, jauh lebih cepat dari kompetitor
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor
                   </p>
                 </div>
 
-                {/* Feature 2 - Warranty */}
+                {/* Feature 2 */}
                 <div className="text-center">
                   <div className="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center mx-auto mb-4 backdrop-blur-sm">
                     <Shield className="text-white w-8 h-8" />
                   </div>
                   <h4 className="text-white font-bold text-lg mb-3">
-                    Warranty
+                    Dolor Sit
                   </h4>
                   <p className="text-white/80 text-sm leading-relaxed">
-                    Garansi 1 tahun gratis untuk semua perangkat original
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod
                   </p>
                 </div>
 
-                {/* Feature 3 - Price */}
+                {/* Feature 3 */}
                 <div className="text-center">
                   <div className="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center mx-auto mb-4 backdrop-blur-sm">
                     <DollarSign className="text-white w-8 h-8" />
                   </div>
                   <h4 className="text-white font-bold text-lg mb-3">
-                    Save Cost
+                    Amet Consectetur
                   </h4>
                   <p className="text-white/80 text-sm leading-relaxed">
-                    Harga kompetitif terbaik dengan konsultasi gratis
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit
                   </p>
                 </div>
               </div>
@@ -202,10 +202,10 @@ export default function ProdukPage() {
       <section className="bg-brand-gray py-16 px-6">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-2xl font-bold text-brand-text text-center mb-3">
-            Katalog Produk Lainnya
+            Lorem Ipsum Dolor Amet
           </h2>
           <p className="text-brand-muted text-sm text-center mb-10 max-w-2xl mx-auto">
-            Jelajahi berbagai kategori perangkat IT untuk kebutuhan bisnis Anda
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -217,10 +217,10 @@ export default function ProdukPage() {
                   <Server className="text-brand-accent w-6 h-6" />
                 </div>
                 <h3 className="font-semibold text-brand-text text-base mb-2">
-                  Managed IT
+                  Lorem Ipsum
                 </h3>
                 <p className="text-brand-muted text-sm leading-relaxed mb-4">
-                  Solusi pengelolaan infrastruktur IT menyeluruh
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit
                 </p>
                 <Link
                   href="/layanan"
@@ -239,10 +239,10 @@ export default function ProdukPage() {
                   <Cloud className="text-blue-500 w-6 h-6" />
                 </div>
                 <h3 className="font-semibold text-brand-text text-base mb-2">
-                  Cloud & Server
+                  Dolor & Sit
                 </h3>
                 <p className="text-brand-muted text-sm leading-relaxed mb-4">
-                  Infrastruktur cloud dan server enterprise
+                  Lorem ipsum dolor sit amet, consectetur adipiscing
                 </p>
                 <Link
                   href="/layanan"
@@ -261,10 +261,10 @@ export default function ProdukPage() {
                   <RefreshCw className="text-purple-500 w-6 h-6" />
                 </div>
                 <h3 className="font-semibold text-brand-text text-base mb-2">
-                  Rental Program
+                  Amet Consectetur
                 </h3>
                 <p className="text-brand-muted text-sm leading-relaxed mb-4">
-                  Sewa perangkat IT fleksibel untuk bisnis
+                  Lorem ipsum dolor sit amet, consectetur adipiscing
                 </p>
                 <Link
                   href="/layanan"
@@ -283,10 +283,10 @@ export default function ProdukPage() {
                   <Headphones className="text-orange-500 w-6 h-6" />
                 </div>
                 <h3 className="font-semibold text-brand-text text-base mb-2">
-                  IT Support 24/7
+                  Lorem 24/7
                 </h3>
                 <p className="text-brand-muted text-sm leading-relaxed mb-4">
-                  Dukungan teknis on-site dan remote siap membantu
+                  Lorem ipsum dolor sit amet, consectetur adipiscing
                 </p>
                 <Link
                   href="/layanan"

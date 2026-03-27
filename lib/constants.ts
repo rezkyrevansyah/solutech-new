@@ -1,100 +1,100 @@
 import { NavItem, Service, PartnerBrand, FaqItem, Stat } from "./types";
 
-export const SITE_NAME = "Solutech Asia";
-export const SITE_DESCRIPTION = "Independent IT solutions distributor and managed services provider based in Jatinegara, Jakarta Timur.";
+export const SITE_NAME = "Lorem Ipsum Asia";
+export const SITE_DESCRIPTION = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.";
 
 export const WHATSAPP_URL = "https://wa.me/6281234567890?text=Halo%20Solutech%20Asia%2C%20saya%20ingin%20bertanya";
 
 export const NAV_LINKS: NavItem[] = [
-  { label: "Layanan Profesional", href: "/layanan" },
-  { label: "Produk", href: "/produk" },
-  { label: "Tentang Kami", href: "/tentang-kami" },
-  { label: "Dukungan", href: "/dukungan" },
+  { label: "Lorem Profesional", href: "/layanan" },
+  { label: "Lorem Ipsum", href: "/produk" },
+  { label: "Lorem Kami", href: "/tentang-kami" },
+  { label: "Lorem Dolor", href: "/dukungan" },
 ];
 
 export const FOOTER_LINKS: NavItem[] = [
-  { label: "Tentang Kami", href: "/tentang-kami" },
-  { label: "FAQ", href: "/faq" },
-  { label: "Karir", href: "/karir" },
-  { label: "Syarat & Ketentuan", href: "/syarat-ketentuan" },
+  { label: "Lorem Kami", href: "/tentang-kami" },
+  { label: "Lorem FAQ", href: "/faq" },
+  { label: "Lorem Ipsum", href: "/karir" },
+  { label: "Lorem & Dolor", href: "/syarat-ketentuan" },
 ];
 
 export const SERVICES: Service[] = [
   {
     id: "hardware-provider",
-    name: "Hardware Provider",
-    description: "Kami adalah distributor independen perangkat jaringan dan server dari berbagai brand terbaik dunia. Unggul dalam pengiriman cepat, harga kompetitif, dan garansi 1 tahun gratis untuk setiap perangkat.",
+    name: "Lorem Service Uno",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
     features: [
-      "Pengiriman 3-4 minggu (lebih cepat dari kompetitor)",
-      "Garansi 1 tahun gratis untuk semua perangkat",
-      "Perangkat 100% original dan bergaransi resmi",
-      "Harga kompetitif, melayani seluruh Indonesia",
+      "Lorem ipsum dolor sit amet consectetur",
+      "Adipiscing elit sed do eiusmod tempor",
+      "Incididunt ut labore et dolore magna",
+      "Aliqua ut enim ad minim veniam",
     ],
   },
   {
     id: "managed-services",
-    name: "Managed Services",
-    description: "Kami kelola infrastruktur IT Anda secara menyeluruh sehingga Anda bisa fokus mengembangkan bisnis. Tim kami berpengalaman menangani kebutuhan IT enterprise dari berbagai industri.",
+    name: "Lorem Service Duo",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     features: [
-      "Pengelolaan infrastruktur IT end-to-end",
-      "Monitoring proaktif 24/7",
-      "Laporan berkala dan analisis performa",
-      "Skalabel sesuai pertumbuhan bisnis Anda",
+      "Lorem ipsum dolor sit amet consectetur",
+      "Adipiscing elit sed do eiusmod tempor",
+      "Incididunt ut labore et dolore magna",
+      "Aliqua ut enim ad minim veniam",
     ],
   },
   {
     id: "it-support",
-    name: "IT Support",
-    description: "Layanan dukungan teknis profesional mencakup instalasi, konfigurasi, troubleshoot, dan assessment. Cakupan layanan kami menjangkau seluruh pelosok Indonesia.",
+    name: "Lorem Service Tres",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
     features: [
-      "Instalasi dan konfigurasi perangkat",
-      "Troubleshooting dan pemulihan sistem",
-      "Assessment kebutuhan infrastruktur IT",
-      "Layanan on-site dan remote seluruh Indonesia",
+      "Lorem ipsum dolor sit amet consectetur",
+      "Adipiscing elit sed do eiusmod tempor",
+      "Incididunt ut labore et dolore magna",
+      "Aliqua ut enim ad minim veniam",
     ],
   },
   {
     id: "cyber-security",
-    name: "Cyber Security",
-    description: "Lindungi aset digital dan infrastruktur IT perusahaan Anda dari ancaman siber dengan solusi keamanan komprehensif dari Solutech Asia.",
+    name: "Lorem Service Quad",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     features: [
-      "Network security dan firewall management",
-      "Endpoint protection dan monitoring",
-      "Vulnerability assessment dan penetration testing",
-      "Incident response dan pemulihan",
+      "Lorem ipsum dolor sit amet consectetur",
+      "Adipiscing elit sed do eiusmod tempor",
+      "Incididunt ut labore et dolore magna",
+      "Aliqua ut enim ad minim veniam",
     ],
   },
   {
     id: "cloud-computing",
-    name: "Cloud Computing",
-    description: "Akselerasi transformasi digital bisnis Anda dengan solusi cloud yang tepat. Kami membantu perencanaan, migrasi, dan pengelolaan lingkungan cloud secara efisien.",
+    name: "Lorem Service Cinco",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam.",
     features: [
-      "Perencanaan dan strategi migrasi cloud",
-      "Setup hybrid cloud dan multi-cloud",
-      "Optimasi biaya infrastruktur cloud",
-      "Integrasi SaaS dan platform cloud",
+      "Lorem ipsum dolor sit amet consectetur",
+      "Adipiscing elit sed do eiusmod tempor",
+      "Incididunt ut labore et dolore magna",
+      "Aliqua ut enim ad minim veniam",
     ],
   },
   {
     id: "rental-hardware",
-    name: "Rental Hardware",
-    description: "Solusi sewa perangkat IT fleksibel untuk kebutuhan bisnis jangka pendek maupun panjang. Hemat biaya investasi tanpa mengorbankan kualitas infrastruktur.",
+    name: "Lorem Service Seis",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni.",
     features: [
-      "Sewa perangkat server, jaringan, dan komputasi",
-      "Periode rental fleksibel sesuai kebutuhan",
-      "Perangkat terjamin kualitas dan performanya",
-      "Termasuk support teknis selama masa rental",
+      "Lorem ipsum dolor sit amet consectetur",
+      "Adipiscing elit sed do eiusmod tempor",
+      "Incididunt ut labore et dolore magna",
+      "Aliqua ut enim ad minim veniam",
     ],
   },
   {
     id: "best-support",
-    name: "BEST-support",
-    description: "Program dukungan komprehensif Solutech Asia yang memberikan respons cepat dan solusi efektif untuk setiap permasalahan IT yang Anda hadapi.",
+    name: "Lorem Service Siete",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
     features: [
-      "Prioritas respons untuk klien terdaftar",
-      "Dedicated account manager",
-      "SLA terukur dan terjamin",
-      "Dukungan multi-channel: WA, email, on-site",
+      "Lorem ipsum dolor sit amet consectetur",
+      "Adipiscing elit sed do eiusmod tempor",
+      "Incididunt ut labore et dolore magna",
+      "Aliqua ut enim ad minim veniam",
     ],
   },
 ];
@@ -109,34 +109,91 @@ export const PARTNER_BRANDS: PartnerBrand[] = [
 ];
 
 export const STATS: Stat[] = [
-  { value: "3-4", suffix: " minggu", label: "Delivery Time Tercepat" },
-  { value: "1", suffix: " tahun", label: "Garansi Gratis Semua Produk" },
-  { value: "100", suffix: "%", label: "Perangkat Original Bergaransi" },
+  { value: "3-4", suffix: " minggu", label: "Lorem Ipsum Dolor Sit" },
+  { value: "1", suffix: " tahun", label: "Lorem Ipsum Dolor Amet" },
+  { value: "100", suffix: "%", label: "Lorem Ipsum Consectetur" },
 ];
 
 export const FAQ_ITEMS: FaqItem[] = [
   {
-    question: "Apa saja layanan dari Solutech Asia?",
-    answer: "Kami adalah distributor independen perangkat jaringan dan server dari berbagai brand terbaik dunia, unggul dalam pengiriman, harga kompetitif, serta garansi 1 tahun gratis untuk perangkat yang dibeli dari Solutech Asia.",
+    question: "Lorem ipsum dolor sit amet consectetur?",
+    answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
   },
   {
-    question: "Apakah menyediakan jasa instalasi?",
-    answer: "Jasa instalasi, konfigurasi, managed service, rental perangkat, assessment, dan troubleshoot adalah beberapa layanan terbaik dari Solutech Asia. Cakupan layanan kami menjangkau seluruh pelosok Indonesia.",
+    question: "Adipiscing elit sed do eiusmod tempor?",
+    answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
   },
   {
-    question: "Apa keuntungan membeli perangkat di Solutech Asia?",
-    answer: "Delivery time kami 3-4 minggu, lebih cepat dari distributor lainnya yang mencapai 5-7 bulan. Semua perangkat kami garansi 1 tahun dan harga yang kami tawarkan sangat kompetitif.",
+    question: "Incididunt ut labore et dolore magna?",
+    answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
   },
   {
-    question: "Apakah perangkat yang dijual original?",
-    answer: "Kami menjamin bahwa perangkat yang kami distribusikan adalah ASLI dan bergaransi. Bilamana ditemukan perangkat yang tidak asli, kami bersedia mengganti uang dan memberikan kompensasi.",
+    question: "Ut enim ad minim veniam quis nostrud?",
+    answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem.",
   },
   {
-    question: "Promo apa yang ditawarkan Solutech Asia?",
-    answer: "Solutech Asia melakukan promo secara berkala. Silahkan cek website dan sosial media kami secara berkala untuk promo-promo terbaru.",
+    question: "Exercitation ullamco laboris nisi ut aliquip?",
+    answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.",
   },
   {
-    question: "Bagaimana proses pembelian di Solutech Asia?",
-    answer: "Silahkan hubungi kami melalui WhatsApp untuk respons cepat. Kami melayani pembelian dari seluruh pelosok Indonesia dan berupaya penuh menjadi mitra yang dapat diandalkan.",
+    question: "Ex ea commodo consequat duis aute irure?",
+    answer: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.",
+  },
+];
+
+export const NEWS_ITEMS = [
+  {
+    id: "news-1",
+    category: "Lorem Ipsum",
+    title: "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.",
+    linkText: "Lorem ipsum",
+    href: "#",
+    bgColor: "#0f2d1e",
+  },
+  {
+    id: "news-2",
+    category: "Dolor Sit",
+    title: "Amet consectetur adipiscing elit sed do eiusmod tempor incididunt",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam quis nostrud.",
+    linkText: "Lorem ipsum",
+    href: "#",
+    bgColor: "#1a2035",
+  },
+  {
+    id: "news-3",
+    category: "Lorem Amet",
+    title: "Sed do eiusmod tempor incididunt ut labore et dolore magna",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aute irure dolor in reprehenderit.",
+    linkText: "Lorem ipsum",
+    href: "#",
+    bgColor: "#0f1a2e",
+  },
+  {
+    id: "news-4",
+    category: "Ipsum Dolor",
+    title: "Ut labore et dolore magna aliqua enim ad minim veniam quis",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Excepteur sint occaecat cupidatat non.",
+    linkText: "Lorem ipsum",
+    href: "#",
+    bgColor: "#1a0f2e",
+  },
+  {
+    id: "news-5",
+    category: "Consectetur",
+    title: "Quis nostrud exercitation ullamco laboris nisi aliquip ex ea",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut.",
+    linkText: "Lorem ipsum",
+    href: "#",
+    bgColor: "#0f1f2e",
+  },
+  {
+    id: "news-6",
+    category: "Adipiscing",
+    title: "Ex ea commodo consequat duis aute irure dolor in reprehenderit",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet consectetur.",
+    linkText: "Lorem ipsum",
+    href: "#",
+    bgColor: "#1f1a0f",
   },
 ];

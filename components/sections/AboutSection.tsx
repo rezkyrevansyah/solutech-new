@@ -12,15 +12,14 @@ export default function AboutSection() {
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
           <div className="inline-flex items-center gap-2 bg-brand-accent/10 border border-brand-accent/20 text-brand-accent text-xs font-medium px-4 py-1.5 rounded-full">
-            Tentang Kami
+            Lorem Ipsum
           </div>
           <h2 className="text-4xl font-bold text-brand-text mt-3 leading-tight">
-            Solutech Asia adalah mitra kerja yang cepat dan dapat diandalkan
+            Lorem ipsum dolor sit amet consectetur adipiscing elit
           </h2>
           <p className="text-brand-muted text-base mt-4 leading-relaxed">
-            Memiliki mitra dengan pemahaman yang luas mengenai teknologi yang dibutuhkan di
-            perusahaan Anda membuat pertumbuhan yang signifikan antara berkembangnya bisnis dan
-            efektivitas nyata.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt
+            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
           </p>
         </div>
 
@@ -41,29 +40,29 @@ export default function AboutSection() {
                 <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-lg p-4">
                   <div className="flex items-center gap-2 mb-2">
                     <div className="w-2 h-2 bg-brand-accent rounded-full" />
-                    <span className="text-white/50 text-xs">Active Users</span>
+                    <span className="text-white/50 text-xs">Lorem Ipsum</span>
                   </div>
                   <div className="text-3xl font-bold text-white">2.4K</div>
                   <div className="text-brand-accent text-xs mt-1 flex items-center gap-1">
                     <TrendingUp className="w-3 h-3" />
-                    +12% this month
+                    +12% dolor sit
                   </div>
                 </div>
 
                 <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-lg p-4">
                   <div className="flex items-center gap-2 mb-2">
                     <div className="w-2 h-2 bg-blue-400 rounded-full" />
-                    <span className="text-white/50 text-xs">Projects</span>
+                    <span className="text-white/50 text-xs">Lorem Dolor</span>
                   </div>
                   <div className="text-3xl font-bold text-white">147</div>
-                  <div className="text-blue-400 text-xs mt-1">Active now</div>
+                  <div className="text-blue-400 text-xs mt-1">Ipsum sit</div>
                 </div>
               </div>
 
               {/* Progress Card */}
               <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-lg p-4">
                 <div className="flex items-center justify-between mb-3">
-                  <span className="text-white text-sm font-medium">Implementation Progress</span>
+                  <span className="text-white text-sm font-medium">Lorem Ipsum Progress</span>
                   <span className="text-brand-accent text-sm font-bold">87%</span>
                 </div>
                 <div className="h-2 bg-white/10 rounded-full overflow-hidden">
@@ -77,14 +76,14 @@ export default function AboutSection() {
                 </div>
                 <div className="mt-3 flex items-center gap-2 text-white/40 text-xs">
                   <Users className="w-3 h-3" />
-                  <span>15 team members working</span>
+                  <span>15 lorem ipsum working</span>
                 </div>
               </div>
 
               {/* Bottom Badge */}
               <div className="mt-4 inline-flex items-center gap-2 bg-brand-accent/20 border border-brand-accent/30 text-brand-accent text-xs px-3 py-1.5 rounded-full">
                 <div className="w-1.5 h-1.5 bg-brand-accent rounded-full animate-pulse" />
-                Real-time Monitoring
+                Lorem Ipsum Dolor
               </div>
             </div>
 
@@ -98,7 +97,7 @@ export default function AboutSection() {
                 className="flex-1 bg-white border border-brand-border rounded-lg p-4 shadow-sm"
               >
                 <div className="text-2xl font-bold text-brand-accent">99.8%</div>
-                <div className="text-brand-muted text-xs mt-1">System Uptime</div>
+                <div className="text-brand-muted text-xs mt-1">Lorem Ipsum</div>
               </motion.div>
 
               <motion.div
@@ -109,7 +108,7 @@ export default function AboutSection() {
                 className="flex-1 bg-white border border-brand-border rounded-lg p-4 shadow-sm"
               >
                 <div className="text-2xl font-bold text-brand-accent">24/7</div>
-                <div className="text-brand-muted text-xs mt-1">Support Available</div>
+                <div className="text-brand-muted text-xs mt-1">Dolor Sit</div>
               </motion.div>
             </div>
           </motion.div>
@@ -127,27 +126,27 @@ export default function AboutSection() {
                 <div className="w-10 h-10 bg-brand-accent/10 rounded-lg flex items-center justify-center">
                   <Package className="text-brand-accent w-5 h-5" />
                 </div>
-                <h3 className="font-bold text-brand-text text-lg">Hardware Provider</h3>
+                <h3 className="font-bold text-brand-text text-lg">Lorem Service Uno</h3>
               </div>
               <p className="mt-3 text-brand-muted text-sm leading-relaxed">
-                Kami menyediakan perangkat terbaik dari brand global dengan kualitas terjamin dan
-                tempo pengiriman <span className="text-brand-accent font-semibold">3-4 minggu</span> — jauh lebih cepat dari kompetitor.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor{" "}
+                <span className="text-brand-accent font-semibold">incididunt ut labore</span> — et dolore magna aliqua ut enim.
               </p>
               <div className="mt-4 flex items-center gap-4 text-xs">
                 <div className="flex items-center gap-1.5 text-brand-muted">
                   <CheckCircle className="w-4 h-4 text-brand-accent" />
-                  Original 100%
+                  Lorem 100%
                 </div>
                 <div className="flex items-center gap-1.5 text-brand-muted">
                   <CheckCircle className="w-4 h-4 text-brand-accent" />
-                  Garansi 1 Tahun
+                  Ipsum Dolor
                 </div>
               </div>
               <Link
                 href="/layanan"
                 className="mt-4 text-brand-accent text-sm flex items-center gap-1 hover:gap-2 transition-all font-medium"
               >
-                Explore layanan
+                Lorem ipsum
                 <ArrowRight className="w-4 h-4" />
               </Link>
             </div>
@@ -158,16 +157,16 @@ export default function AboutSection() {
                 <div className="w-10 h-10 bg-blue-500/10 rounded-lg flex items-center justify-center">
                   <ShieldCheck className="text-blue-500 w-5 h-5" />
                 </div>
-                <h3 className="font-bold text-brand-text text-lg">Managed Services</h3>
+                <h3 className="font-bold text-brand-text text-lg">Lorem Service Duo</h3>
               </div>
               <p className="mt-3 text-brand-muted text-sm leading-relaxed">
-                Kami kelola infrastruktur IT Anda secara menyeluruh dengan monitoring 24/7,
-                sehingga Anda bisa fokus pada pertumbuhan bisnis.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip.
               </p>
               <div className="mt-4 flex flex-wrap gap-2">
-                <span className="text-xs bg-blue-50 text-blue-600 px-2 py-1 rounded">24/7 Monitoring</span>
-                <span className="text-xs bg-blue-50 text-blue-600 px-2 py-1 rounded">Proactive Support</span>
-                <span className="text-xs bg-blue-50 text-blue-600 px-2 py-1 rounded">Scalable</span>
+                <span className="text-xs bg-blue-50 text-blue-600 px-2 py-1 rounded">Lorem Ipsum</span>
+                <span className="text-xs bg-blue-50 text-blue-600 px-2 py-1 rounded">Dolor Sit</span>
+                <span className="text-xs bg-blue-50 text-blue-600 px-2 py-1 rounded">Amet</span>
               </div>
             </div>
 
@@ -177,22 +176,22 @@ export default function AboutSection() {
                 <div className="w-12 h-12 bg-brand-accent/10 rounded-full flex items-center justify-center mx-auto mb-2">
                   <Truck className="text-brand-accent w-6 h-6" />
                 </div>
-                <div className="text-brand-text text-xs font-medium">Fast Delivery</div>
-                <div className="text-brand-muted text-xs">3-4 Minggu</div>
+                <div className="text-brand-text text-xs font-medium">Lorem Dolor</div>
+                <div className="text-brand-muted text-xs">Sit Amet</div>
               </div>
               <div className="text-center">
                 <div className="w-12 h-12 bg-brand-accent/10 rounded-full flex items-center justify-center mx-auto mb-2">
                   <ShieldCheck className="text-brand-accent w-6 h-6" />
                 </div>
-                <div className="text-brand-text text-xs font-medium">Warranty</div>
-                <div className="text-brand-muted text-xs">1 Tahun Gratis</div>
+                <div className="text-brand-text text-xs font-medium">Ipsum Dolor</div>
+                <div className="text-brand-muted text-xs">Consectetur</div>
               </div>
               <div className="text-center">
                 <div className="w-12 h-12 bg-brand-accent/10 rounded-full flex items-center justify-center mx-auto mb-2">
                   <Globe className="text-brand-accent w-6 h-6" />
                 </div>
-                <div className="text-brand-text text-xs font-medium">Coverage</div>
-                <div className="text-brand-muted text-xs">Seluruh Indonesia</div>
+                <div className="text-brand-text text-xs font-medium">Lorem Sit</div>
+                <div className="text-brand-muted text-xs">Adipiscing</div>
               </div>
             </div>
 
@@ -201,7 +200,7 @@ export default function AboutSection() {
               href={WHATSAPP_URL}
               className="mt-6 w-full bg-brand-dark text-white text-sm font-semibold px-6 py-3 rounded-sm hover:bg-brand-dark/90 transition-colors flex items-center justify-center gap-2 group"
             >
-              Konsultasi Gratis Sekarang
+              Lorem Ipsum Dolor
               <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </a>
           </motion.div>

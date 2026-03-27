@@ -13,56 +13,56 @@ const comparisonData: Array<{
   vendor: boolean | "partial";
 }> = [
   {
-    criteria: "Delivery Time 3-4 Minggu",
+    criteria: "Lorem ipsum dolor sit",
     solutech: true,
     distributor: false,
     vendor: false,
   },
   {
-    criteria: "Garansi 1 Tahun Gratis",
+    criteria: "Amet consectetur adipiscing",
     solutech: true,
     distributor: "partial" as const,
     vendor: false,
   },
   {
-    criteria: "Perangkat 100% Original",
+    criteria: "Elit sed do eiusmod",
     solutech: true,
     distributor: true,
     vendor: "partial" as const,
   },
   {
-    criteria: "Harga Kompetitif",
+    criteria: "Tempor incididunt ut labore",
     solutech: true,
     distributor: "partial" as const,
     vendor: false,
   },
   {
-    criteria: "Jasa Instalasi & Konfigurasi",
+    criteria: "Dolore magna aliqua enim",
     solutech: true,
     distributor: false,
     vendor: false,
   },
   {
-    criteria: "Managed Services Included",
+    criteria: "Ad minim veniam quis",
     solutech: true,
     distributor: false,
     vendor: false,
   },
   {
-    criteria: "Layanan Seluruh Indonesia",
+    criteria: "Nostrud exercitation ullamco",
     solutech: true,
     distributor: "partial" as const,
     vendor: false,
   },
   {
-    criteria: "Rental Hardware Tersedia",
+    criteria: "Laboris nisi ut aliquip",
     solutech: true,
     distributor: false,
     vendor: false,
   },
 ];
 
-const tags = ["Mengapa Kami", "Artikel", "Berita", "Newsletter", "Bantuan", "Kontak"];
+const tags = ["Lorem Ipsum", "Dolor Sit", "Amet", "Consectetur", "Adipiscing", "Elit"];
 
 function StatusIcon({ status }: { status: boolean | "partial" }) {
   if (status === true) {
@@ -84,13 +84,13 @@ export default function WhyUsSection() {
         {/* Header */}
         <div className="text-center max-w-2xl mx-auto mb-16">
           <div className="inline-flex items-center gap-2 bg-brand-accent/10 border border-brand-accent/20 text-brand-accent text-xs font-medium px-4 py-1.5 rounded-full">
-            Mengapa Kami
+            Lorem Ipsum
           </div>
           <h2 className="text-3xl lg:text-4xl font-bold text-brand-text mt-3 leading-tight">
-            Mengapa perusahaan ternama memilih Solutech Asia sebagai mitra IT?
+            Lorem ipsum dolor sit amet consectetur adipiscing elit?
           </h2>
           <p className="text-brand-muted text-sm mt-3">
-            Bandingkan sendiri keunggulan Solutech Asia dibanding distributor IT lainnya.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod.
           </p>
         </div>
 
@@ -108,9 +108,9 @@ export default function WhyUsSection() {
             <div className="relative">
               <Award className="w-8 h-8 text-brand-accent mb-3" />
               <div className="text-5xl font-bold text-brand-accent mb-2">98%</div>
-              <div className="text-brand-text font-semibold">Customer Satisfaction</div>
+              <div className="text-brand-text font-semibold">Lorem Ipsum Dolor</div>
               <div className="text-brand-muted text-sm mt-2">
-                Tingkat kepuasan pelanggan tertinggi di industri
+                Lorem ipsum dolor sit amet consectetur adipiscing
               </div>
             </div>
           </motion.div>
@@ -127,9 +127,9 @@ export default function WhyUsSection() {
             <div className="relative">
               <Zap className="w-8 h-8 text-blue-500 mb-3" />
               <div className="text-5xl font-bold text-blue-500 mb-2">3-4</div>
-              <div className="text-brand-text font-semibold">Minggu Delivery</div>
+              <div className="text-brand-text font-semibold">Amet Consectetur</div>
               <div className="text-brand-muted text-sm mt-2">
-                Tercepat di Indonesia, kompetitor 5-7 bulan
+                Lorem ipsum dolor sit amet consectetur elit
               </div>
             </div>
           </motion.div>
@@ -146,9 +146,9 @@ export default function WhyUsSection() {
             <div className="relative">
               <Target className="w-8 h-8 text-purple-500 mb-3" />
               <div className="text-5xl font-bold text-purple-500 mb-2">100%</div>
-              <div className="text-brand-text font-semibold">Indonesia Coverage</div>
+              <div className="text-brand-text font-semibold">Dolor Adipiscing</div>
               <div className="text-brand-muted text-sm mt-2">
-                Melayani seluruh pelosok nusantara
+                Lorem ipsum dolor sit amet consectetur
               </div>
             </div>
           </motion.div>
@@ -157,7 +157,7 @@ export default function WhyUsSection() {
         {/* Main Comparison Section */}
         <div className="bg-brand-gray rounded-2xl p-8 mb-8">
           <h3 className="text-center text-xl font-bold text-brand-text mb-6">
-            Perbandingan Lengkap Solutech Asia
+            Lorem Ipsum Dolor Sit Amet
           </h3>
 
           {/* Comparison Table */}
@@ -167,10 +167,10 @@ export default function WhyUsSection() {
               <thead>
                 <tr className="bg-brand-dark">
                   <th className="text-white/50 text-sm text-left px-6 py-4 rounded-tl-lg">
-                    Kriteria
+                    Lorem
                   </th>
                   <th className="text-white font-bold text-sm px-6 py-4 border-b-4 border-brand-accent">
-                    Solutech Asia
+                    Lorem Asia
                   </th>
                   <th className="text-white/50 text-sm px-6 py-4">Vendor 1</th>
                   <th className="text-white/50 text-sm px-6 py-4 rounded-tr-lg">Vendor 2</th>
@@ -220,16 +220,16 @@ export default function WhyUsSection() {
               <div className="w-8 h-8 bg-brand-accent/10 rounded-lg flex items-center justify-center">
                 <CheckCircle className="w-5 h-5 text-brand-accent" />
               </div>
-              Keunggulan Utama
+              Lorem Ipsum Dolor
             </h4>
             <div className="space-y-3">
               {[
-                "Delivery tercepat 3-4 minggu",
-                "Garansi resmi 1 tahun gratis",
-                "Harga paling kompetitif",
-                "Support 24/7 seluruh Indonesia",
-                "Managed services lengkap",
-                "Tim profesional berpengalaman",
+                "Lorem ipsum dolor sit amet",
+                "Consectetur adipiscing elit sed",
+                "Do eiusmod tempor incididunt",
+                "Ut labore et dolore magna",
+                "Aliqua ut enim ad minim",
+                "Veniam quis nostrud exercitation",
               ].map((item, i) => (
                 <motion.div
                   key={i}
@@ -251,17 +251,17 @@ export default function WhyUsSection() {
           {/* Right - CTA Card */}
           <div className="bg-gradient-to-br from-brand-dark to-brand-dark-2 text-white rounded-xl p-6 flex flex-col justify-between">
             <div>
-              <h4 className="font-bold text-xl mb-2">Siap Berkolaborasi?</h4>
+              <h4 className="font-bold text-xl mb-2">Lorem Ipsum Dolor?</h4>
               <p className="text-white/60 text-sm mb-6">
-                Bergabunglah dengan ratusan perusahaan yang telah mempercayai Solutech Asia
-                untuk kebutuhan IT mereka.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua.
               </p>
             </div>
             <Link
               href="/layanan"
               className="bg-brand-accent text-black font-semibold px-6 py-3 rounded-sm hover:bg-brand-accent/90 transition-colors text-center"
             >
-              Lihat Semua Layanan
+              Lorem Ipsum
             </Link>
           </div>
         </div>

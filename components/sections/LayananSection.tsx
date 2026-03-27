@@ -15,14 +15,14 @@ export default function LayananSection() {
         {/* Header with Question */}
         <div className="mb-12 text-center lg:text-left">
           <div className="inline-flex items-center gap-2 bg-brand-accent/10 border border-brand-accent/20 text-brand-accent text-xs font-medium px-4 py-1.5 rounded-full">
-            Layanan Profesional
+            Lorem Profesional
           </div>
           <h2 className="text-3xl lg:text-4xl font-bold text-brand-text mt-4 leading-tight">
-            Layanan IT Profesional untuk Kebutuhan Bisnis Anda
+            Lorem ipsum dolor sit amet consectetur adipiscing
           </h2>
           <p className="text-brand-muted text-sm mt-3 max-w-2xl">
-            Dari hardware provider hingga managed services — kami tangani semua kebutuhan IT
-            perusahaan Anda dengan delivery tercepat dan harga terkompetitif.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt
+            ut labore et dolore magna aliqua ut enim ad minim veniam.
           </p>
         </div>
 
@@ -39,16 +39,16 @@ export default function LayananSection() {
             </div>
             <div className="flex-1">
               <h3 className="font-semibold text-brand-text text-lg mb-2">
-                Membutuhkan konsultasi untuk menentukan solusi IT yang tepat?
+                Lorem ipsum dolor sit amet consectetur adipiscing elit?
               </h3>
               <p className="text-brand-muted text-sm mb-4">
-                Tim ahli kami siap membantu Anda menganalisis kebutuhan dan merekomendasikan solusi terbaik untuk bisnis Anda.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </p>
               <a
                 href={WHATSAPP_URL}
                 className="inline-flex items-center gap-2 bg-brand-accent text-black text-sm font-semibold px-5 py-2 rounded-sm hover:bg-brand-accent/90 transition-colors"
               >
-                Hubungi Konsultan Kami
+                Lorem Ipsum Dolor
                 <ArrowRight className="w-4 h-4" />
               </a>
             </div>
@@ -78,7 +78,7 @@ export default function LayananSection() {
           <div className="hidden lg:block">
             <div className="bg-white rounded-lg p-4 shadow-sm sticky top-24">
               <div className="text-xs uppercase tracking-wider text-brand-muted mb-4 px-2">
-                Pilih Layanan
+                Lorem Ipsum
               </div>
               <nav className="space-y-1">
                 {SERVICES.map((service, index) => (
@@ -150,7 +150,7 @@ export default function LayananSection() {
                   <div className="flex items-center gap-2 mb-4">
                     <div className="h-px flex-1 bg-brand-border" />
                     <div className="text-xs uppercase tracking-wider text-brand-muted font-medium">
-                      Fitur Utama
+                      Lorem Ipsum
                     </div>
                     <div className="h-px flex-1 bg-brand-border" />
                   </div>
@@ -176,17 +176,17 @@ export default function LayananSection() {
                   <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
                     <div>
                       <div className="text-brand-text font-semibold text-sm mb-1">
-                        Tertarik dengan layanan ini?
+                        Lorem ipsum dolor sit amet?
                       </div>
                       <div className="text-brand-muted text-xs">
-                        Konsultasi gratis dengan tim ahli kami
+                        Lorem ipsum consectetur adipiscing elit
                       </div>
                     </div>
                     <a
                       href={`${WHATSAPP_URL}&text=Halo, saya tertarik dengan layanan ${activeService.name}`}
                       className="group bg-brand-accent text-black text-sm font-semibold px-6 py-3 rounded-sm inline-flex items-center gap-2 hover:bg-brand-accent/90 transition-all shadow-sm hover:shadow-md whitespace-nowrap"
                     >
-                      Konsultasi Sekarang
+                      Lorem Ipsum
                       <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                     </a>
                   </div>
